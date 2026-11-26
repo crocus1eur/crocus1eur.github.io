@@ -1,0 +1,1518 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>旺盛大妈受不了_社区活力图鉴_广场舞与养生妙招</title>
+  <meta name="description" content="旺盛大妈受不了，一个记录社区活力阿姨们真实状态的图文专题。涵盖广场舞新曲、养生饮食、邻里妙招、家庭收纳、出游穿搭与健康自测清单，适合关心社区生活与中老年活力的读者浏览。">
+  <meta name="keywords" content="广场舞新曲, 养生饮食, 邻里妙招, 中老年活力, 社区生活">
+  <style>
+    :root {
+      --bg: #fdf9f2;
+      --panel: #ffffff;
+      --ink: #1e1b16;
+      --ink-soft: #4d463c;
+      --muted: #7a7064;
+      --line: #e7ddd0;
+      --brand: #b5441f;
+      --brand-deep: #7f2c12;
+      --brand-soft: #fbeee4;
+      --accent: #2f7d5b;
+      --accent-soft: #e6f3ec;
+      --gold: #c9922a;
+      --gold-soft: #fbf2da;
+      --radius-s: 8px;
+      --radius-m: 14px;
+      --radius-l: 22px;
+      --shadow-1: 0 1px 2px rgba(30, 27, 22, .06), 0 4px 12px rgba(30, 27, 22, .05);
+      --shadow-2: 0 2px 6px rgba(30, 27, 22, .08), 0 12px 28px rgba(30, 27, 22, .08);
+      --header-h: 66px;
+      --notice-h: 40px;
+      --sticky-offset: calc(var(--notice-h) + var(--header-h));
+      --font: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+    h1, h2, h3, h4 { line-height: 1.35; margin: 0; font-weight: 800; }
+
+    p { margin: 0 0 1em; }
+
+    ul { margin: 0; padding-left: 1.2em; }
+
+    img { display: block; max-width: 100%; }
+
+    :focus-visible {
+      outline: 3px solid var(--brand);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ---------- 吸顶公告条 ---------- */
+    .notice-bar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      height: var(--notice-h);
+      display: flex;
+      align-items: center;
+      background: linear-gradient(90deg, var(--brand-deep), var(--brand));
+      color: #fff5ee;
+      font-size: 14px;
+      letter-spacing: .02em;
+    }
+    .notice-bar .container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      overflow: hidden;
+    }
+    .notice-bar b { color: #ffe2b8; font-weight: 800; }
+    .notice-tag {
+      flex: none;
+      background: rgba(255, 255, 255, .18);
+      border: 1px solid rgba(255, 255, 255, .35);
+      border-radius: 999px;
+      padding: 1px 10px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .notice-bar p {
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* ---------- 吸顶页头 ---------- */
+    .site-header {
+      position: sticky;
+      top: var(--notice-h);
+      z-index: 40;
+      height: var(--header-h);
+      background: rgba(253, 249, 242, .92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+    .site-header .container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+    .brand-lockup {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: none;
+    }
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      flex: none;
+    }
+    .brand-name {
+      font-size: 19px;
+      font-weight: 900;
+      letter-spacing: .01em;
+      color: var(--brand-deep);
+      white-space: nowrap;
+    }
+    .brand-name small {
+      display: block;
+      font-size: 10px;
+      letter-spacing: .22em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex: 1;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .main-nav::-webkit-scrollbar { display: none; }
+    .main-nav a {
+      flex: none;
+      font-size: 14.5px;
+      font-weight: 600;
+      color: var(--ink-soft);
+      padding: 7px 11px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .main-nav a:hover { background: var(--brand-soft); color: var(--brand-deep); text-decoration: none; }
+    .header-cta {
+      flex: none;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      background: var(--brand);
+      padding: 8px 16px;
+      border-radius: 999px;
+      box-shadow: var(--shadow-1);
+    }
+    .header-cta:hover { background: var(--brand-deep); text-decoration: none; }
+
+    /* ---------- 首屏 ---------- */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+      background:
+        radial-gradient(900px 320px at 88% -10%, var(--gold-soft), transparent 60%),
+        radial-gradient(700px 300px at 4% 110%, var(--accent-soft), transparent 60%),
+        var(--bg);
+    }
+    .hero .container {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+      gap: 40px;
+      align-items: center;
+      padding-top: 46px;
+      padding-bottom: 52px;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--brand-deep);
+      background: var(--brand-soft);
+      border: 1px solid #f0d8c6;
+      border-radius: 999px;
+      padding: 4px 13px;
+      margin-bottom: 18px;
+    }
+    .hero-eyebrow::before {
+      content: "";
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--brand);
+    }
+    .hero h1 {
+      font-size: clamp(30px, 4.4vw, 52px);
+      letter-spacing: .01em;
+      color: var(--ink);
+      margin-bottom: 16px;
+    }
+    .hero h1 em {
+      font-style: normal;
+      color: var(--brand);
+      background: linear-gradient(transparent 66%, #f7d9c4 66%);
+    }
+    .hero-lead {
+      font-size: 16.5px;
+      color: var(--ink-soft);
+      max-width: 44em;
+      margin-bottom: 24px;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 11px 22px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: transform .15s ease, background .15s ease;
+    }
+    .btn:hover { text-decoration: none; transform: translateY(-1px); }
+    .btn-primary { background: var(--brand); color: #fff; box-shadow: var(--shadow-1); }
+    .btn-primary:hover { background: var(--brand-deep); }
+    .btn-ghost { background: #fff; color: var(--brand-deep); border-color: #e8d4c4; }
+    .btn-ghost:hover { background: var(--brand-soft); }
+    .hero-stats {
+      display: flex;
+      gap: 26px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+    .hero-stats div { font-size: 13px; color: var(--muted); }
+    .hero-stats strong {
+      display: block;
+      font-size: 24px;
+      color: var(--brand-deep);
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    .hero-visual {
+      position: relative;
+      min-height: 320px;
+    }
+    .hero-visual svg { width: 100%; height: auto; display: block; }
+    .hero-badge {
+      position: absolute;
+      right: 4px;
+      bottom: 10px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-m);
+      box-shadow: var(--shadow-2);
+      padding: 12px 16px;
+      font-size: 13px;
+      color: var(--ink-soft);
+      max-width: 220px;
+    }
+    .hero-badge strong { display: block; color: var(--brand-deep); font-size: 15px; }
+
+    /* ---------- 三栏主布局 ---------- */
+    .layout {
+      display: grid;
+      grid-template-columns: 178px minmax(0, 1fr) 248px;
+      gap: 30px;
+      padding: 40px 0 60px;
+      align-items: start;
+    }
+
+    .side-left, .side-right {
+      position: sticky;
+      top: calc(var(--sticky-offset) + 18px);
+      align-self: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-m);
+      box-shadow: var(--shadow-1);
+    }
+    .panel-pad { padding: 16px; }
+
+    .side-title {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin: 0 0 10px;
+    }
+
+    .channel-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 2px; }
+    .channel-list a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--ink-soft);
+      padding: 8px 10px;
+      border-radius: var(--radius-s);
+    }
+    .channel-list a:hover { background: var(--brand-soft); color: var(--brand-deep); text-decoration: none; }
+    .channel-list .count {
+      font-size: 11.5px;
+      color: var(--muted);
+      font-weight: 700;
+      background: #f4ece1;
+      border-radius: 999px;
+      padding: 1px 8px;
+      flex: none;
+    }
+
+    .hot-list { list-style: none; padding: 0; margin: 0; counter-reset: hot; display: grid; gap: 2px; }
+    .hot-list li { counter-increment: hot; }
+    .hot-list a {
+      display: flex;
+      gap: 10px;
+      padding: 7px 6px;
+      border-radius: var(--radius-s);
+      font-size: 13.5px;
+      line-height: 1.45;
+      color: var(--ink-soft);
+    }
+    .hot-list a:hover { background: var(--gold-soft); text-decoration: none; }
+    .hot-list a::before {
+      content: counter(hot);
+      flex: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 6px;
+      background: #f1e6d6;
+      color: var(--brand-deep);
+      font-size: 12px;
+      font-weight: 800;
+      display: grid;
+      place-items: center;
+      margin-top: 1px;
+    }
+    .hot-list li:nth-child(-n+3) a::before { background: var(--brand); color: #fff; }
+
+    .update-feed { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .update-feed li { font-size: 13px; line-height: 1.5; color: var(--ink-soft); border-bottom: 1px dashed var(--line); padding-bottom: 9px; }
+    .update-feed li:last-child { border-bottom: 0; padding-bottom: 0; }
+    .update-feed time { display: block; font-size: 11.5px; color: var(--muted); font-weight: 700; margin-bottom: 1px; }
+
+    /* ---------- 主内容区 ---------- */
+    .main-col { min-width: 0; display: grid; gap: 34px; }
+
+    .section { scroll-margin-top: calc(var(--sticky-offset) + 16px); }
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+    .section-head h2 {
+      font-size: 23px;
+      letter-spacing: .01em;
+      color: var(--ink);
+    }
+    .section-head h2 span {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--brand);
+      background: var(--brand-soft);
+      border-radius: 999px;
+      padding: 2px 10px;
+      vertical-align: 4px;
+      margin-left: 8px;
+      letter-spacing: .06em;
+    }
+    .section-head .more { font-size: 13.5px; font-weight: 700; color: var(--brand); white-space: nowrap; }
+    .section-intro { color: var(--ink-soft); font-size: 15px; margin-bottom: 18px; max-width: 62em; }
+
+    /* 概览 */
+    .overview {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--brand);
+      border-radius: var(--radius-m);
+      padding: 22px 24px;
+      box-shadow: var(--shadow-1);
+    }
+    .overview p { font-size: 15px; color: var(--ink-soft); }
+    .overview p:last-child { margin-bottom: 0; }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-m);
+      overflow: hidden;
+      box-shadow: var(--shadow-1);
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow .18s ease, transform .18s ease;
+    }
+    .card:hover { box-shadow: var(--shadow-2); transform: translateY(-2px); }
+    .card img { width: 100%; height: 148px; object-fit: cover; background: #efe6d9; }
+    .card-body { padding: 14px 15px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    .card-title { font-size: 16px; font-weight: 800; color: var(--ink); line-height: 1.4; }
+    .card-desc { font-size: 13.5px; color: var(--ink-soft); margin: 0; flex: 1; }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--brand-deep);
+      background: var(--brand-soft);
+      border-radius: 999px;
+      padding: 2px 9px;
+      white-space: nowrap;
+    }
+    .tag-green { color: #1f5c40; background: var(--accent-soft); }
+    .tag-gold { color: #7a5610; background: var(--gold-soft); }
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 700;
+      border-top: 1px dashed var(--line);
+      padding-top: 9px;
+    }
+    .card-meta .heat { color: var(--brand); }
+
+    /* 动态列表 */
+    .feed-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-m); overflow: hidden; }
+    .feed-list li {
+      display: grid;
+      grid-template-columns: 96px minmax(0, 1fr);
+      gap: 14px;
+      padding: 13px 18px;
+      border-bottom: 1px solid var(--line);
+      align-items: baseline;
+    }
+    .feed-list li:last-child { border-bottom: 0; }
+    .feed-list time { font-size: 12.5px; font-weight: 800; color: var(--brand); }
+    .feed-list strong { font-weight: 800; color: var(--ink); }
+    .feed-list span { color: var(--ink-soft); font-size: 14px; }
+
+    /* 分类入口 */
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+    }
+    .cat-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-m);
+      padding: 12px 14px;
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--ink);
+      box-shadow: var(--shadow-1);
+    }
+    .cat-item:hover { border-color: #e2c7b2; background: var(--brand-soft); text-decoration: none; }
+    .cat-dot {
+      width: 10px; height: 10px; border-radius: 3px; flex: none;
+      background: var(--brand);
+    }
+    .cat-item:nth-child(3n+2) .cat-dot { background: var(--accent); }
+    .cat-item:nth-child(3n) .cat-dot { background: var(--gold); }
+    .cat-item small { display: block; font-size: 11.5px; font-weight: 600; color: var(--muted); }
+
+    /* 深度解析 */
+    .deep-dive {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-l);
+      padding: 28px 30px;
+      box-shadow: var(--shadow-1);
+    }
+    .deep-dive h3 {
+      font-size: 18.5px;
+      margin: 26px 0 8px;
+      color: var(--brand-deep);
+      padding-left: 12px;
+      border-left: 4px solid var(--brand);
+    }
+    .deep-dive h3:first-of-type { margin-top: 6px; }
+    .deep-dive p { font-size: 15px; color: var(--ink-soft); }
+    .deep-dive ul { color: var(--ink-soft); font-size: 15px; margin-bottom: 1em; }
+    .deep-dive li { margin-bottom: 6px; }
+
+    /* 体验指南 */
+    .steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; counter-reset: step; }
+    .steps li {
+      counter-increment: step;
+      display: grid;
+      grid-template-columns: 42px minmax(0, 1fr);
+      gap: 14px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-m);
+      padding: 16px 18px;
+      box-shadow: var(--shadow-1);
+    }
+    .steps li::before {
+      content: counter(step);
+      width: 42px; height: 42px;
+      border-radius: 12px;
+      background: var(--brand-soft);
+      color: var(--brand-deep);
+      font-size: 18px;
+      font-weight: 900;
+      display: grid;
+      place-items: center;
+    }
+    .steps h4 { font-size: 15.5px; margin-bottom: 3px; }
+    .steps p { margin: 0; font-size: 14px; color: var(--ink-soft); }
+
+    /* FAQ */
+    .faq-list { display: grid; gap: 10px; }
+    details {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-m);
+      box-shadow: var(--shadow-1);
+      overflow: hidden;
+    }
+    details summary {
+      cursor: pointer;
+      list-style: none;
+      font-weight: 800;
+      font-size: 15px;
+      padding: 15px 44px 15px 18px;
+      position: relative;
+      color: var(--ink);
+    }
+    details summary::-webkit-details-marker { display: none; }
+    details summary::after {
+      content: "+";
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--brand);
+      line-height: 1;
+    }
+    details[open] summary::after { content: "−"; }
+    details[open] summary { background: var(--brand-soft); }
+    .faq-body { padding: 0 18px 16px; font-size: 14.5px; color: var(--ink-soft); }
+    .faq-body p { margin: 10px 0 0; }
+
+    /* 评论 */
+    .comment-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 12px;
+    }
+    .comment {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-m);
+      padding: 14px 16px;
+      box-shadow: var(--shadow-1);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .comment-head { display: flex; align-items: center; gap: 9px; }
+    .avatar {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--brand-soft);
+      color: var(--brand-deep);
+      font-size: 13px; font-weight: 900;
+      display: grid; place-items: center;
+      flex: none;
+    }
+    .comment:nth-child(3n+2) .avatar { background: var(--accent-soft); color: #1f5c40; }
+    .comment:nth-child(3n) .avatar { background: var(--gold-soft); color: #7a5610; }
+    .comment-name { font-size: 13.5px; font-weight: 800; }
+    .comment-text { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
+    .comment-meta { font-size: 11.5px; color: var(--muted); font-weight: 700; }
+
+    /* 资讯 */
+    .news-list { display: grid; gap: 12px; }
+    .news-item {
+      display: grid;
+      grid-template-columns: 132px minmax(0, 1fr);
+      gap: 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-m);
+      overflow: hidden;
+      box-shadow: var(--shadow-1);
+    }
+    .news-item img { width: 100%; height: 100%; min-height: 96px; object-fit: cover; }
+    .news-body { padding: 13px 16px 13px 0; }
+    .news-body h4 { font-size: 15.5px; margin-bottom: 5px; }
+    .news-body p { font-size: 13.5px; color: var(--ink-soft); margin: 0 0 6px; }
+    .news-body time { font-size: 12px; font-weight: 700; color: var(--brand); }
+
+    /* 相关推荐标签 */
+    .tag-index { display: flex; flex-wrap: wrap; gap: 9px; }
+    .tag-index a {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--ink-soft);
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 15px;
+      box-shadow: var(--shadow-1);
+    }
+    .tag-index a:hover { background: var(--brand-soft); color: var(--brand-deep); border-color: #e8cdb8; text-decoration: none; }
+
+    /* 榜单 & 时间线 */
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .rank-panel, .timeline-panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-m);
+      padding: 18px 20px;
+      box-shadow: var(--shadow-1);
+    }
+    .rank-panel h3, .timeline-panel h3 {
+      font-size: 16px;
+      margin-bottom: 12px;
+      color: var(--brand-deep);
+    }
+    .rank-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; counter-reset: r; }
+    .rank-list li { counter-increment: r; display: flex; gap: 10px; font-size: 13.5px; line-height: 1.5; color: var(--ink-soft); align-items: baseline; }
+    .rank-list li::before {
+      content: counter(r);
+      flex: none;
+      width: 20px; height: 20px;
+      border-radius: 6px;
+      background: #f1e6d6;
+      color: var(--brand-deep);
+      font-weight: 800;
+      font-size: 12px;
+      display: grid; place-items: center;
+    }
+    .rank-list li:nth-child(-n+2)::before { background: var(--brand); color: #fff; }
+    .rank-list b { color: var(--ink); font-weight: 800; }
+
+    .tl { list-style: none; padding: 0 0 0 16px; margin: 0; border-left: 2px dashed #e3d3c1; display: grid; gap: 13px; }
+    .tl li { position: relative; font-size: 13.5px; color: var(--ink-soft); line-height: 1.55; }
+    .tl li::before {
+      content: "";
+      position: absolute;
+      left: -23px; top: 6px;
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: var(--panel);
+      border: 2.5px solid var(--brand);
+    }
+    .tl time { display: block; font-size: 11.5px; font-weight: 800; color: var(--brand); letter-spacing: .02em; }
+    .tl b { color: var(--ink); }
+
+    /* ---------- 页尾 ---------- */
+    .site-footer {
+      background: #241f1a;
+      color: #d9cec2;
+      padding: 44px 0 26px;
+      font-size: 14px;
+    }
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+      gap: 30px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid rgba(255, 255, 255, .12);
+    }
+    .footer-brand { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+    .footer-brand .brand-name { color: #f6ece0; }
+    .footer-brand .brand-name small { color: #a2947f; }
+    .footer-desc { color: #a99d8d; font-size: 13px; line-height: 1.7; margin: 0; }
+    .footer-col h4 { font-size: 13px; letter-spacing: .1em; color: #f6ece0; margin-bottom: 12px; font-weight: 800; }
+    .footer-col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 7px; }
+    .footer-col a { color: #b7a998; font-size: 13px; }
+    .footer-col a:hover { color: #fff; }
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding-top: 20px;
+      font-size: 12px;
+      color: #8d8172;
+    }
+    .footer-bottom p { margin: 0; }
+
+    /* 搜索过滤 */
+    .search-wrap { display: flex; gap: 8px; margin-bottom: 14px; }
+    .search-wrap input {
+      flex: 1;
+      min-width: 0;
+      font-family: inherit;
+      font-size: 14px;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+      color: var(--ink);
+    }
+    .search-wrap input:focus-visible { outline: 3px solid var(--brand); outline-offset: 1px; }
+    .search-wrap button {
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      background: var(--brand);
+      border: 0;
+      border-radius: 999px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .search-wrap button:hover { background: var(--brand-deep); }
+    .search-empty {
+      display: none;
+      padding: 16px;
+      border: 1px dashed #ddc9b6;
+      border-radius: var(--radius-m);
+      color: var(--muted);
+      font-size: 14px;
+      background: var(--panel);
+    }
+    .search-empty.show { display: block; }
+
+    /* ---------- 响应式 ---------- */
+    @media (max-width: 1024px) {
+      .layout { grid-template-columns: 200px minmax(0, 1fr); gap: 24px; }
+      .side-right { position: static; grid-column: 1 / -1; }
+      .side-right .panel { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+      .hero .container { grid-template-columns: 1fr; gap: 24px; }
+      .hero-visual { max-width: 520px; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 740px) {
+      :root { --header-h: auto; }
+      .site-header { position: sticky; top: var(--notice-h); height: auto; }
+      .site-header .container { flex-wrap: wrap; padding-top: 8px; padding-bottom: 8px; gap: 10px; }
+      .main-nav { order: 3; width: 100%; flex: 1 0 100%; padding-bottom: 2px; }
+      .header-cta { margin-left: auto; }
+      .notice-bar p { font-size: 12.5px; }
+      .notice-tag { display: none; }
+
+      .layout { grid-template-columns: 1fr; gap: 22px; padding-top: 24px; }
+      .side-left, .side-right { position: static; }
+      .side-left .panel { padding: 14px; }
+      .channel-list { grid-template-columns: 1fr 1fr; }
+      .side-right .panel { grid-template-columns: 1fr; }
+      .hero .container { padding-top: 30px; padding-bottom: 34px; }
+      .hero h1 { font-size: 30px; }
+      .hero-stats { gap: 18px; }
+      .hero-stats strong { font-size: 20px; }
+
+      .two-col { grid-template-columns: 1fr; }
+      .news-item { grid-template-columns: 96px minmax(0, 1fr); gap: 12px; }
+      .news-body { padding: 11px 12px 11px 0; }
+      .feed-list li { grid-template-columns: 1fr; gap: 2px; }
+      .deep-dive { padding: 20px 18px; }
+      .footer-top { grid-template-columns: 1fr; gap: 22px; }
+      .card-grid { grid-template-columns: 1fr; }
+      .comment-grid { grid-template-columns: 1fr; }
+      .cat-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { transition: none !important; }
+    }
+  </style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+  <!-- 吸顶公告条 -->
+  <div class="notice-bar" role="region" aria-label="站点公告">
+    <div class="container">
+      <span class="notice-tag">本周更新</span>
+      <p><b>11 月 25 日</b> 新增「冬日暖身汤谱 12 款」「广场舞《山河美》分解教学」「社区旧衣改造 8 例」，另收录 3 条邻里妙招与 1 份冬季晨练安全清单。</p>
+    </div>
+  </div>
+
+  <!-- 吸顶页头 -->
+  <header class="site-header">
+    <div class="container">
+      <a class="brand-lockup" href="/#top" aria-label="旺盛大妈受不了 首页">
+        <svg class="brand-mark" viewBox="0 0 48 48" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="bmGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#d9662e"/>
+              <stop offset="1" stop-color="#8a2f10"/>
+            </linearGradient>
+          </defs>
+          <circle cx="24" cy="24" r="22" fill="url(#bmGrad)"/>
+          <path d="M12 30c2.4-6.4 6.4-10.6 12-12.6 5.6 2 9.6 6.2 12 12.6" fill="none" stroke="#fff2e2" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="24" cy="17" r="4.2" fill="#fff2e2"/>
+          <path d="M14 35h20" stroke="#fff2e2" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+        </svg>
+        <span class="brand-name">旺盛大妈受不了<small>社区活力图鉴</small></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/#overview">领域概览</a>
+        <a href="/#picks">精选推荐</a>
+        <a href="/#updates">最新动态</a>
+        <a href="/#categories">分类入口</a>
+        <a href="/#deepdive">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#comments">社区评论</a>
+        <a href="/#news">相关资讯</a>
+      </nav>
+      <a class="header-cta" href="/#picks">看今日条目</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 首屏 -->
+    <section class="hero">
+      <div class="container">
+        <div>
+          <span class="hero-eyebrow">社区活力 · 真实生活记录</span>
+          <h1>旺盛大妈受不了</h1>
+          <p class="hero-lead">这里说的不是段子，而是一群精力旺盛的阿姨们日常里那些让人招架不住的鲜活瞬间：清晨六点的广场舞新曲、菜市场里的砍价妙招、厨房里的养生汤谱、旧衣改造的手艺活，还有一趟说走就走的周边短游。我们把社区里被反复验证过的实用经验整理成看得懂、学得会的条目。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/#picks">浏览本周精选条目</a>
+            <a class="btn btn-ghost" href="/#guide">从哪类内容看起</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>386</strong>条社区实测经验</div>
+            <div><strong>47</strong>支广场舞分解教学</div>
+            <div><strong>92</strong>例旧物改造方案</div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <svg viewBox="0 0 480 360" role="img" aria-label="社区阿姨们在广场上跳舞与聊天的插画场景">
+            <defs>
+              <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#fbe6cf"/>
+                <stop offset="1" stop-color="#fdf9f2"/>
+              </linearGradient>
+              <linearGradient id="groundG" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#e9dcc8"/>
+                <stop offset="1" stop-color="#dccab2"/>
+              </linearGradient>
+            </defs>
+            <rect width="480" height="360" rx="22" fill="url(#skyG)"/>
+            <circle cx="384" cy="72" r="34" fill="#f3c98c" opacity=".85"/>
+            <path d="M0 262h480v98H0z" fill="url(#groundG)"/>
+            <path d="M0 262h480" stroke="#cbb394" stroke-width="2"/>
+            <!-- 楼群 -->
+            <g fill="#e7d6c0" stroke="#d3bda2" stroke-width="1.5">
+              <rect x="24" y="120" width="58" height="142" rx="4"/>
+              <rect x="92" y="86" width="46" height="176" rx="4"/>
+              <rect x="146" y="146" width="52" height="116" rx="4"/>
+              <rect x="356" y="112" width="62" height="150" rx="4"/>
+              <rect x="422" y="152" width="42" height="110" rx="4"/>
+            </g>
+            <g fill="#f6ead9">
+              <rect x="36" y="136" width="12" height="12"/><rect x="56" y="136" width="12" height="12"/>
+              <rect x="36" y="160" width="12" height="12"/><rect x="56" y="160" width="12" height="12"/>
+              <rect x="104" y="104" width="10" height="10"/><rect x="120" y="104" width="10" height="10"/>
+              <rect x="104" y="126" width="10" height="10"/><rect x="120" y="126" width="10" height="10"/>
+              <rect x="370" y="130" width="12" height="12"/><rect x="392" y="130" width="12" height="12"/>
+              <rect x="370" y="154" width="12" height="12"/><rect x="392" y="154" width="12" height="12"/>
+            </g>
+            <!-- 人物 -->
+            <g>
+              <!-- 舞者1 -->
+              <circle cx="168" cy="196" r="15" fill="#e8b48c"/>
+              <path d="M168 212c-13 0-22 10-22 26v24h44v-24c0-16-9-26-22-26z" fill="#c0482a"/>
+              <path d="M146 236l-16 20 8 6 16-18z" fill="#c0482a"/>
+              <path d="M190 236l16 8 4-9-16-12z" fill="#c0482a"/>
+              <circle cx="168" cy="196" r="15" fill="none" stroke="#a83a1e" stroke-width="2"/>
+              <!-- 舞者2 -->
+              <circle cx="238" cy="204" r="14" fill="#f0c9a6"/>
+              <path d="M238 219c-12 0-20 9-20 24v22h40v-22c0-15-8-24-20-24z" fill="#2f7d5b"/>
+              <path d="M218 240l-14 18 7 5 14-16z" fill="#2f7d5b"/>
+              <path d="M258 238l15 10 3-8-15-13z" fill="#2f7d5b"/>
+              <!-- 舞者3 -->
+              <circle cx="308" cy="210" r="14" fill="#e8b48c"/>
+              <path d="M308 225c-12 0-20 9-20 24v20h40v-20c0-15-8-24-20-24z" fill="#c9922a"/>
+              <path d="M288 244l-13 17 8 5 13-15z" fill="#c9922a"/>
+              <path d="M328 244l13 6 2-9-13-9z" fill="#c9922a"/>
+            </g>
+            <!-- 音响 -->
+            <g>
+              <rect x="196" y="270" width="34" height="26" rx="4" fill="#5b4a3a"/>
+              <circle cx="206" cy="283" r="5" fill="#a99d8d"/>
+              <circle cx="221" cy="283" r="5" fill="#a99d8d"/>
+            </g>
+            <!-- 长椅与聊天者 -->
+            <g>
+              <rect x="376" y="254" width="78" height="9" rx="4" fill="#a5845f"/>
+              <rect x="384" y="263" width="7" height="24" fill="#8a6c4c"/>
+              <rect x="438" y="263" width="7" height="24" fill="#8a6c4c"/>
+            </g>
+            <!-- 树叶 -->
+            <g fill="#9dbb8a" opacity=".85">
+              <circle cx="52" cy="248" r="22"/>
+              <circle cx="80" cy="240" r="16"/>
+              <circle cx="36" cy="236" r="14"/>
+            </g>
+            <rect x="48" y="258" width="8" height="42" fill="#8a6c4c"/>
+          </svg>
+          <div class="hero-badge">
+            <strong>今日热练</strong>
+            《山河美》分解教学 · 第 3 节已上线
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 三栏布局 -->
+    <div class="container layout">
+
+      <!-- 左侧频道索引 -->
+      <aside class="side-left" aria-label="频道索引">
+        <div class="panel panel-pad">
+          <p class="side-title">频道索引</p>
+          <ul class="channel-list">
+            <li><a href="/#picks">广场舞曲 <span class="count">47</span></a></li>
+            <li><a href="/#picks">养生汤谱 <span class="count">63</span></a></li>
+            <li><a href="/#picks">邻里妙招 <span class="count">38</span></a></li>
+            <li><a href="/#categories">旧物改造 <span class="count">92</span></a></li>
+            <li><a href="/#categories">家庭收纳 <span class="count">27</span></a></li>
+            <li><a href="/#categories">周边短游 <span class="count">19</span></a></li>
+            <li><a href="/#categories">健康自测 <span class="count">24</span></a></li>
+            <li><a href="/#categories">菜场砍价 <span class="count">31</span></a></li>
+            <li><a href="/#categories">孙辈带教 <span class="count">16</span></a></li>
+            <li><a href="/#categories">手工编织 <span class="count">29</span></a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- 中部主内容 -->
+      <div class="main-col">
+
+        <!-- 1. 领域概览 -->
+        <section class="section" id="overview">
+          <div class="section-head">
+            <h2>领域概览<span>这个圈子在聊什么</span></h2>
+          </div>
+          <div class="overview">
+            <p>“旺盛大妈受不了”说的是社区里那群精力格外旺盛的阿姨：她们能把一支广场舞跳到整条街都知道，也能把一棵白菜做出六种吃法。这个领域大致分成几个方向——舞蹈与锻炼、厨房与养生、居家收纳与改造、邻里人情往来、带孙辈的日常，以及说走就走的周边短游。每个方向都在社区里被反复实践，留下大量可以直接照搬的经验。</p>
+            <p>当前值得关注的具体内容有三类。第一类是节奏明快、动作不伤膝的广场舞新曲，比如《山河美》《映山红串烧》，配套的分解教学比整段视频更受欢迎。第二类是入冬后的养生饮食，萝卜羊肉汤、山药排骨煲、红枣桂圆茶这些汤谱被反复翻看，搭配的食材挑选和火候判断比配方本身更关键。第三类是旧衣旧物改造，把一件穿旧的羽绒服改成靠垫、把饮料瓶剪成花盆，这类手工活既省钱又让邻里之间多了一个共同话题。</p>
+            <p>这些内容之所以被追着看，是因为它们都带着具体的场景和判断标准：几点去菜场能挑到新鲜又便宜的菜、哪类舞曲适合膝盖不太好的人、汤要炖多久才不柴。带着这些具体问题来找答案的人，基本都能在对应条目里找到可操作的步骤。</p>
+          </div>
+        </section>
+
+        <!-- 2. 精选内容推荐 -->
+        <section class="section" id="picks">
+          <div class="section-head">
+            <h2>精选内容推荐<span>本周可看条目</span></h2>
+            <a class="more" href="/#updates">查看更新节奏 →</a>
+          </div>
+          <p class="section-intro">以下条目均为社区近期反复验证、反馈较好的内容，覆盖舞蹈、饮食、收纳、短游几个方向。</p>
+
+          <div class="search-wrap">
+            <label for="pickSearch" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">搜索精选条目</label>
+            <input id="pickSearch" type="search" placeholder="搜索条目名，如「山河美」「萝卜羊肉汤」" autocomplete="off">
+            <button type="button" id="pickSearchBtn">查找</button>
+          </div>
+          <div class="search-empty" id="pickEmpty" role="status">没有找到匹配的条目，换个关键词试试，例如「收纳」「汤谱」「舞曲」。</div>
+
+          <div class="card-grid" id="pickGrid">
+            <article class="card" data-keywords="广场舞 山河美 分解教学 舞蹈">
+              <img src="https://picsum.photos/seed/dama-wudao01/400/300" width="400" height="300" loading="lazy" alt="广场舞《山河美》分解教学封面">
+              <div class="card-body">
+                <span class="tag-row"><span class="tag">广场舞</span><span class="tag tag-green">分解教学</span></span>
+                <h3 class="card-title">广场舞《山河美》分解教学</h3>
+                <p class="card-desc">把整支舞拆成 9 个八拍，每个动作标注发力方向和膝盖保护要点，适合刚开始跳、怕动作变形的人。</p>
+                <div class="card-meta"><span>更新至第 3 节</span><span class="heat">热度 9.2</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-keywords="萝卜羊肉汤 养生 汤谱 冬季">
+              <img src="https://picsum.photos/seed/dama-tangpu02/400/300" width="400" height="300" loading="lazy" alt="萝卜羊肉汤汤谱成品图">
+              <div class="card-body">
+                <span class="tag-row"><span class="tag">养生汤谱</span><span class="tag tag-gold">冬季</span></span>
+                <h3 class="card-title">萝卜羊肉汤：去膻三步法</h3>
+                <p class="card-desc">从选羊腿肉、冷水下锅焯水，到白萝卜何时放才不烂，附一份炖煮时间对照表，适合第一次炖羊肉的人。</p>
+                <div class="card-meta"><span>11 月 25 日更新</span><span class="heat">热度 9.5</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-keywords="旧羽绒服 改造 靠垫 手工">
+              <img src="https://picsum.photos/seed/dama-gaizao03/400/300" width="400" height="300" loading="lazy" alt="旧羽绒服改造成靠垫的手工成品">
+              <div class="card-body">
+                <span class="tag-row"><span class="tag">旧物改造</span><span class="tag tag-green">手工</span></span>
+                <h3 class="card-title">旧羽绒服改成沙发靠垫</h3>
+                <p class="card-desc">一件不穿的羽绒服可拆出两个 45×45 厘米靠垫内胆，附裁剪尺寸和封口针法，重点在羽绒不飞毛的处理。</p>
+                <div class="card-meta"><span>收录 92 例方案</span><span class="heat">热度 8.7</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-keywords="菜场 砍价 挑菜 妙招">
+              <img src="https://picsum.photos/seed/dama-caichang04/400/300" width="400" height="300" loading="lazy" alt="清晨菜市场挑选蔬菜的场景">
+              <div class="card-body">
+                <span class="tag-row"><span class="tag">邻里妙招</span><span class="tag tag-gold">菜场</span></span>
+                <h3 class="card-title">早市挑菜与砍价的 7 个实招</h3>
+                <p class="card-desc">什么时间到菜场菜最新鲜、哪类摊位更容易讲价、称重时该看哪个细节，来自几位常年买菜的阿姨总结。</p>
+                <div class="card-meta"><span>11 月 20 日更新</span><span class="heat">热度 8.9</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-keywords="周边短游 一日游 公交 路线">
+              <img src="https://picsum.photos/seed/dama-duanyou05/400/300" width="400" height="300" loading="lazy" alt="郊区短游沿途的风景小径">
+              <div class="card-body">
+                <span class="tag-row"><span class="tag">周边短游</span><span class="tag tag-green">一日往返</span></span>
+                <h3 class="card-title">公交可达的 5 条一日短游线</h3>
+                <p class="card-desc">全程不超过两趟公交、步行强度适中的近郊路线，标注了厕所位置和休息点，适合结伴慢走。</p>
+                <div class="card-meta"><span>11 月 18 日更新</span><span class="heat">热度 8.4</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-keywords="家庭收纳 厨房 抽屉 整理">
+              <img src="https://picsum.photos/seed/dama-shouna06/400/300" width="400" height="300" loading="lazy" alt="厨房抽屉分类收纳整理后的样子">
+              <div class="card-body">
+                <span class="tag-row"><span class="tag">家庭收纳</span><span class="tag tag-gold">厨房</span></span>
+                <h3 class="card-title">厨房抽屉的三段式分区法</h3>
+                <p class="card-desc">按使用频率把抽屉分成常用、备用、季节性三段，配可裁剪的隔板尺寸，重点解决瓶罐互相碰撞的问题。</p>
+                <div class="card-meta"><span>收录 27 例收纳</span><span class="heat">热度 8.2</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-keywords="健康自测 晨练 血压 清单">
+              <img src="https://picsum.photos/seed/dama-jiankang07/400/300" width="400" height="300" loading="lazy" alt="冬季晨练前的健康自测清单">
+              <div class="card-body">
+                <span class="tag-row"><span class="tag">健康自测</span><span class="tag tag-green">晨练</span></span>
+                <h3 class="card-title">冬季晨练前的 6 项自测清单</h3>
+                <p class="card-desc">起床后先看血压、心率、关节僵硬程度等 6 项指标，给出“照常练”“减量练”“改室内”三档判断。</p>
+                <div class="card-meta"><span>11 月 22 日更新</span><span class="heat">热度 9.0</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-keywords="手工编织 围巾 起针 教程">
+              <img src="https://picsum.photos/seed/dama-bianzhi08/400/300" width="400" height="300" loading="lazy" alt="手工编织围巾的起针步骤特写">
+              <div class="card-body">
+                <span class="tag-row"><span class="tag">手工编织</span><span class="tag tag-gold">围巾</span></span>
+                <h3 class="card-title">粗线围巾起针与收边教程</h3>
+                <p class="card-desc">用粗线起 28 针、织平针约 1.6 米，附收边不卷边的两行处理法，第一次织围巾也能完成。</p>
+                <div class="card-meta"><span>11 月 15 日更新</span><span class="heat">热度 8.1</span></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- 3. 最新动态 -->
+        <section class="section" id="updates">
+          <div class="section-head">
+            <h2>最新更新<span>近 30 天</span></h2>
+          </div>
+          <ul class="feed-list">
+            <li><time datetime="2026-11-25">今天 09:30</time><span><strong>《山河美》分解教学第 3 节</strong>已上线，讲第二段转身与手位衔接。</span></li>
+            <li><time datetime="2026-11-25">今天 08:10</time><span><strong>萝卜羊肉汤去膻三步法</strong>补充了炖煮时间对照表，替换了原来的文字描述。</span></li>
+            <li><time datetime="2026-11-24">昨天 21:10</time><span><strong>旧羽绒服改靠垫</strong>新增羽绒防飞毛的封口针法图解。</span></li>
+            <li><time datetime="2026-11-24">昨天 15:40</time><span><strong>早市挑菜实招</strong>更新了冬季时令菜价参考区间。</span></li>
+            <li><time datetime="2026-11-23">11 月 23 日</time><span><strong>冬季晨练自测清单</strong>增加“关节僵硬程度”判断口径。</span></li>
+            <li><time datetime="2026-11-22">11 月 22 日</time><span><strong>公交一日短游线</strong>第 4 条线路因施工调整了上车点，已同步改注。</span></li>
+            <li><time datetime="2026-11-21">11 月 21 日</time><span><strong>厨房抽屉分区法</strong>补充了可裁剪隔板的尺寸建议。</span></li>
+            <li><time datetime="2026-11-19">11 月 19 日</time><span><strong>粗线围巾教程</strong>新增“收边不卷边”的两行处理法。</span></li>
+            <li><time datetime="2026-11-17">11 月 17 日</time><span><strong>《映山红串烧》</strong>替换了后半段的节奏点标注。</span></li>
+            <li><time datetime="2026-11-14">11 月 14 日</time><span><strong>邻里换物会规则</strong>更新了交换物品登记方式，新增“不交换清单”。</span></li>
+          </ul>
+        </section>
+
+        <!-- 4. 分类入口 -->
+        <section class="section" id="categories">
+          <div class="section-head">
+            <h2>分类入口<span>按方向找</span></h2>
+          </div>
+          <div class="cat-grid">
+            <a class="cat-item" href="/#picks"><span class="cat-dot"></span><span>广场舞曲<small>分解教学 · 护膝动作</small></span></a>
+            <a class="cat-item" href="/#picks"><span class="cat-dot"></span><span>养生汤谱<small>时令食材 · 火候判断</small></span></a>
+            <a class="cat-item" href="/#picks"><span class="cat-dot"></span><span>邻里妙招<small>菜场 · 人情往来</small></span></a>
+            <a class="cat-item" href="/#picks"><span class="cat-dot"></span><span>旧物改造<small>旧衣 · 瓶罐 · 家具</small></span></a>
+            <a class="cat-item" href="/#picks"><span class="cat-dot"></span><span>家庭收纳<small>厨房 · 衣柜 · 阳台</small></span></a>
+            <a class="cat-item" href="/#picks"><span class="cat-dot"></span><span>周边短游<small>公交可达 · 慢走线</small></span></a>
+            <a class="cat-item" href="/#picks"><span class="cat-dot"></span><span>健康自测<small>晨练 · 血压 · 关节</small></span></a>
+            <a class="cat-item" href="/#picks"><span class="cat-dot"></span><span>手工编织<small>围巾 · 坐垫 · 杯垫</small></span></a>
+          </div>
+        </section>
+
+        <!-- 5. 深度解析 -->
+        <section class="section" id="deepdive">
+          <div class="section-head">
+            <h2>深度解析<span>怎么挑、怎么判断</span></h2>
+          </div>
+          <div class="deep-dive">
+            <p>旺盛大妈受不了这个圈子的内容，表面看是跳舞和做饭，真正拉开差距的是判断力。同样一支舞，有人跳完膝盖疼三天，有人越跳越轻松；同样一锅汤，有人炖出来又柴又膻，有人第一次就成功。下面按几个具体维度拆开讲。</p>
+
+            <h3>广场舞曲的节奏与护膝取舍</h3>
+            <p>选舞曲先看节奏速度，再看动作幅度，最后才看流行度。节奏在每分钟 120—132 拍的曲子，动作衔接相对从容，适合刚开始跳或者膝盖有过旧伤的人；每分钟 140 拍以上的快节奏曲子观赏性强，但连续跳两遍对膝关节的冲击明显增加。像《山河美》这类中速曲，好处是转身和手位有足够时间到位，坏处是如果习惯快节奏会觉得“不够带劲”。一个实用的判断方法是：跟着音乐把第一段跳完，如果第二遍需要刻意放慢才能跟上，说明这支曲子当前不适合连跳。</p>
+            <p>护膝的取舍还体现在动作替换上。下蹲、单腿转体、连续小跳这三类动作，膝盖不适的人可以直接替换成侧点步、原地转体、踏步，节奏点不变，观感差别不大，但关节压力小很多。分解教学的价值就在这里——它把“能不能换”和“怎么换”讲清楚了，而不是只给一段完整视频让人照做。</p>
+
+            <h3>汤谱里真正决定成败的变量</h3>
+            <p>翻遍萝卜羊肉汤、山药排骨煲、红枣桂圆茶这些汤谱，会发现配方本身差别不大，真正决定结果的是三个变量：食材状态、下锅顺序、火候时长。</p>
+            <ul>
+              <li><strong>食材状态：</strong>羊肉要看颜色是否偏暗、按压是否有弹性，冷冻肉必须完全解冻后再焯水，否则外层熟了内层还带血水，膻味去不干净。</li>
+              <li><strong>下锅顺序：</strong>萝卜这类含水量高的根茎，放早了会烂成泥，放晚了又不入味，一般在肉炖到七成软时下锅最稳。</li>
+              <li><strong>火候时长：</strong>大火烧开、小火慢炖是通用原则，但羊肉和排骨的时间差很多，前者 70—90 分钟，后者 50—60 分钟就够，炖过头肉会散。</li>
+            </ul>
+            <p>红枣桂圆茶这类甜汤则要反过来看：桂圆久煮会发酸，红枣久煮会烂，通常水开后煮 12—15 分钟即可。判断标准很简单——汤色清亮带一点琥珀色、闻起来甜而不腻，就是到位了。</p>
+
+            <h3>旧物改造的可行性门槛</h3>
+            <p>旧衣改靠垫、瓶罐改花盆、旧木箱改边几，这类内容看着热闹，实际动手前要先过三道门槛。第一道是工具门槛：改羽绒服需要缝纫机或至少针脚细密的封口针法，纯手缝很容易让羽绒从针眼钻出。第二道是材料门槛：旧衣的面料厚度是否够、内胆是否还有蓬松度，直接决定成品能不能用。第三道是时间门槛：一件旧衣改成两个靠垫，熟练的人两小时，第一次做可能要半天，值不值得投入要看成品使用频率。</p>
+            <p>比较稳妥的入门顺序是先做瓶罐花盆（工具只需剪刀和砂纸）、再做布艺小件（杯垫、收纳袋）、最后才碰羽绒和木质改造。这样每一步都能积累手感，失败成本也低。</p>
+
+            <h3>短游线路的强度判断</h3>
+            <p>公交可达的一日短游线，重点不是景点多有名，而是强度是否匹配同行人的体力。判断一条线路适不适合，可以看三个数字：单程公交时间、全程步行距离、休息点密度。单程超过 90 分钟、步行超过 5 公里、休息点少于每 2 公里一处的线路，对结伴出行的中老年人就不太友好。反过来，单程 60 分钟内、步行 3—4 公里、沿途有公园长椅或社区驿站的线路，才是舒服的选择。这类信息在条目里通常比景点介绍更有用。</p>
+          </div>
+        </section>
+
+        <!-- 6. 体验指南 -->
+        <section class="section" id="guide">
+          <div class="section-head">
+            <h2>体验指南<span>消费与判断顺序</span></h2>
+          </div>
+          <p class="section-intro">内容多的时候，按下面这个顺序看，能少走弯路。这套顺序是按“先建立判断标准、再挑具体条目、最后动手”来排的。</p>
+          <ol class="steps">
+            <li>
+              <h4>先看类型差异，别急着收藏具体条目</h4>
+              <p>先搞清楚广场舞曲分慢、中、快三档，汤谱分清炖、浓煲、甜汤三类，改造分布艺、瓶罐、木质三种。知道类型差异，后面看到具体条目时才知道它属于哪一类、适不适合自己。</p>
+            </li>
+            <li>
+              <h4>用“门槛”筛掉暂时做不了的条目</h4>
+              <p>看一个条目先问三个问题：需要什么工具、需要多少时间、失败成本高不高。工具不齐、时间不够、失败了心疼的，先放一放，别因为看着热闹就上手。</p>
+            </li>
+            <li>
+              <h4>找带具体数字的条目，而不是只讲感受的</h4>
+              <p>“炖到软烂”不如“小火 70 分钟”，“动作舒展”不如“8 个八拍、每拍 2 秒”。带具体数字的条目，照着做更容易一次成功，也方便和别人交流时描述清楚。</p>
+            </li>
+            <li>
+              <h4>同类条目横向比一次再决定</h4>
+              <p>比如三支候选舞曲，比节奏速度、动作幅度、护膝替换难度；三条候选短游线，比单程时间、步行距离、休息点。比完通常只有一条真正适合，不用贪多。</p>
+            </li>
+            <li>
+              <h4>动手后回看条目里的“易错点”</h4>
+              <p>第一次做汤、第一次改衣、第一次跳新曲，做完回看条目里标注的易错点，往往能对上具体环节，下一次就能自己判断火候和动作了。</p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- 7. FAQ -->
+        <section class="section" id="faq">
+          <div class="section-head">
+            <h2>常见问答<span>6 个高频问题</span></h2>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>广场舞分解教学一般多久更新一节？</summary>
+              <div class="faq-body"><p>按目前节奏，一支新曲的分解教学通常分 3—5 节更新，每节间隔 2—4 天。像《山河美》这种 9 个八拍的曲子，固定在 3 节内讲完，第 3 节上线后才会出完整跟练版。</p></div>
+            </details>
+            <details>
+              <summary>《山河美》和《映山红串烧》有什么区别，适合谁？</summary>
+              <div class="faq-body"><p>《山河美》是中速曲，每分钟约 126 拍，转身和手位有缓冲，适合刚开始跳或膝盖有过旧伤的人。《映山红串烧》节奏更快、段落切换频繁，观赏性强，更适合已经跳了半年以上、想换点新花样的队伍。</p></div>
+            </details>
+            <details>
+              <summary>第一次接触这个圈子的内容，从哪个条目开始看比较好？</summary>
+              <div class="faq-body"><p>建议从“萝卜羊肉汤去膻三步法”或“早市挑菜与砍价的 7 个实招”看起。这两类内容门槛低、当天就能用上，做完一次就能建立判断手感，再去看改造和短游类条目会更顺。</p></div>
+            </details>
+            <details>
+              <summary>旧衣改靠垫需要缝纫机吗？</summary>
+              <div class="faq-body"><p>最好有。纯手缝也能做，但针脚要细密，封口处最好回针加固，否则羽绒容易从针眼钻出来。如果没有缝纫机，可以先从瓶罐花盆或布艺小件做起，积累手感后再挑战羽绒类改造。</p></div>
+            </details>
+            <details>
+              <summary>养生汤谱里的“小火慢炖”到底要多久？</summary>
+              <div class="faq-body"><p>看食材。羊肉 70—90 分钟、排骨 50—60 分钟、鸡肉 40—50 分钟，甜汤类（红枣桂圆茶）只需水开后 12—15 分钟。判断标准不是计时器，而是肉能轻松脱骨、汤色清亮不浑浊。</p></div>
+            </details>
+            <details>
+              <summary>周边短游线怎么判断强度适不适合自己？</summary>
+              <div class="faq-body"><p>看三个数字：单程公交时间控制在 60 分钟内、全程步行 3—4 公里、休息点密度不低于每 2 公里一处。超过这个范围，对结伴慢走的中老年人就偏累，建议拆成两段或换更近的线路。</p></div>
+            </details>
+          </div>
+        </section>
+
+        <!-- 8. 用户评论 -->
+        <section class="section" id="comments">
+          <div class="section-head">
+            <h2>用户评论<span>来自社区的真实反馈</span></h2>
+          </div>
+          <div class="comment-grid">
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">王</span><span class="comment-name">王姐爱跳舞</span></div>
+              <p class="comment-text">《山河美》第 2 节那个转身讲得比我们队长清楚，膝盖疼的那一步换成了侧点步，跳完确实轻松多了。</p>
+              <span class="comment-meta">11 月 24 日 · 关于广场舞</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">李</span><span class="comment-name">李阿姨的厨房</span></div>
+              <p class="comment-text">萝卜羊肉汤按 70 分钟炖的，第一次没膻味。以前都是凭感觉，现在知道看肉能不能脱骨。</p>
+              <span class="comment-meta">11 月 25 日 · 关于养生汤谱</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">张</span><span class="comment-name">张姐收纳记</span></div>
+              <p class="comment-text">三段式分区法我照着改了厨房抽屉，瓶罐不打架了，就是隔板尺寸要自己量准，别买现成的。</p>
+              <span class="comment-meta">11 月 23 日 · 关于家庭收纳</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">陈</span><span class="comment-name">陈大妈手工坊</span></div>
+              <p class="comment-text">旧羽绒服改靠垫试了一个，羽绒飞得到处都是，封口针法还是要先看视频再动手。</p>
+              <span class="comment-meta">11 月 22 日 · 关于旧物改造</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">刘</span><span class="comment-name">刘叔也来逛</span></div>
+              <p class="comment-text">陪老伴看的，菜场那篇挺实在，几点去、看哪个摊位都写了，比光讲道理强。</p>
+              <span class="comment-meta">11 月 21 日 · 关于邻里妙招</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">赵</span><span class="comment-name">赵姐慢慢走</span></div>
+              <p class="comment-text">公交短游线第 4 条改上车点改得及时，上周去差点坐错，建议每条线都标厕所位置。</p>
+              <span class="comment-meta">11 月 20 日 · 关于周边短游</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">孙</span><span class="comment-name">孙阿姨爱晨练</span></div>
+              <p class="comment-text">晨练自测清单里“关节僵硬程度”这个口径挺新鲜，以前只知道量血压，现在会先动动手脚再决定练不练。</p>
+              <span class="comment-meta">11 月 23 日 · 关于健康自测</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">周</span><span class="comment-name">周姐织毛线</span></div>
+              <p class="comment-text">粗线围巾起 28 针刚好，收边不卷边那两行是关键，我前两条都卷边了。</p>
+              <span class="comment-meta">11 月 19 日 · 关于手工编织</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">吴</span><span class="comment-name">吴阿姨看热闹</span></div>
+              <p class="comment-text">《映山红串烧》跳了半年，确实带劲，但连跳两遍膝盖会提醒我该歇了，中速曲还是更适合日常。</p>
+              <span class="comment-meta">11 月 18 日 · 关于广场舞</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">郑</span><span class="comment-name">郑姐煲汤</span></div>
+              <p class="comment-text">山药排骨煲 50 分钟正好，上次炖了一小时肉都散了，时间对照表挺有用。</p>
+              <span class="comment-meta">11 月 17 日 · 关于养生汤谱</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">冯</span><span class="comment-name">冯大妈逛菜场</span></div>
+              <p class="comment-text">菜价区间更新得挺准，这周白萝卜确实降了，按区间去讲价心里有底。</p>
+              <span class="comment-meta">11 月 24 日 · 关于邻里妙招</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">何</span><span class="comment-name">何姐爱收拾</span></div>
+              <p class="comment-text">瓶罐花盆是最容易上手的，剪完砂纸磨一圈就不割手，孙子也一起做，比买花盆有意思。</p>
+              <span class="comment-meta">11 月 16 日 · 关于旧物改造</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">许</span><span class="comment-name">许阿姨问路</span></div>
+              <p class="comment-text">短游线建议加一条带孙辈的，步行 2 公里左右那种，现在的线路对我们带孩子的还是稍微远了点。</p>
+              <span class="comment-meta">11 月 15 日 · 关于周边短游</span>
+            </article>
+            <article class="comment">
+              <div class="comment-head"><span class="avatar">马</span><span class="comment-name">马姐管抽屉</span></div>
+              <p class="comment-text">三段式分区法思路对，但每家厨房尺寸不一样，最好说清楚隔板怎么自己裁。</p>
+              <span class="comment-meta">11 月 21 日 · 关于家庭收纳</span>
+            </article>
+          </div>
+        </section>
+
+        <!-- 9. 相关资讯 -->
+        <section class="section" id="news">
+          <div class="section-head">
+            <h2>相关资讯<span>近 30 天动态</span></h2>
+          </div>
+          <div class="news-list">
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/news-wudao11/600/400" width="600" height="400" loading="lazy" alt="社区广场舞队排练新曲的场景">
+              <div class="news-body">
+                <h4>《山河美》分解教学第 3 节上线，完整跟练版同步放出</h4>
+                <p>第 3 节讲第二段转身与手位衔接，完整跟练版已同步上线，适合已学完前两节的人直接跟练。</p>
+                <time datetime="2026-11-25">2026-11-25</time>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/news-tangpu12/600/400" width="600" height="400" loading="lazy" alt="冬季汤谱食材摆放在桌面上">
+              <div class="news-body">
+                <h4>入冬汤谱集中更新：萝卜羊肉汤、山药排骨煲查看量上升</h4>
+                <p>11 月下旬起，清炖类汤谱的查看量明显增加，羊肉、山药、白萝卜成为近期高频搜索食材。</p>
+                <time datetime="2026-11-24">2026-11-24</time>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/news-gaizao13/600/400" width="600" height="400" loading="lazy" alt="旧衣改造手工桌上的针线工具">
+              <div class="news-body">
+                <h4>旧羽绒服改靠垫新增封口针法图解，回应羽绒飞毛反馈</h4>
+                <p>针对多条评论提到的羽绒飞毛问题，改造条目补充了封口针法图解和回针加固示意。</p>
+                <time datetime="2026-11-23">2026-11-23</time>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/news-duanyou14/600/400" width="600" height="400" loading="lazy" alt="近郊短游线路沿途的公交站牌">
+              <div class="news-body">
+                <h4>公交一日短游线第 4 条因施工调整上车点</h4>
+                <p>原上车点封闭施工，线路改至相邻路口站点，步行距离增加约 300 米，条目已同步改注。</p>
+                <time datetime="2026-11-22">2026-11-22</time>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/news-jiankang15/600/400" width="600" height="400" loading="lazy" alt="冬季晨练前的健康自测记录表">
+              <div class="news-body">
+                <h4>晨练自测清单增加关节僵硬判断口径</h4>
+                <p>新增“起床后关节活动度”观察项，并给出照常练、减量练、改室内三档具体判断。</p>
+                <time datetime="2026-11-21">2026-11-21</time>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/news-huanwu16/600/400" width="600" height="400" loading="lazy" alt="社区邻里换物会现场的长桌与物品">
+              <div class="news-body">
+                <h4>邻里换物会更新登记方式，新增“不交换清单”</h4>
+                <p>换物登记改为提前填表，另设不参与交换的物品清单，减少现场沟通成本。</p>
+                <time datetime="2026-11-14">2026-11-14</time>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- 10. 相关推荐 -->
+        <section class="section" id="related">
+          <div class="section-head">
+            <h2>相关推荐<span>延伸方向</span></h2>
+          </div>
+          <div class="tag-index">
+            <a href="/#picks">慢节奏舞曲清单</a>
+            <a href="/#picks">护膝动作替换表</a>
+            <a href="/#picks">清炖汤火候对照</a>
+            <a href="/#picks">时令食材挑选</a>
+            <a href="/#picks">布艺改造入门</a>
+            <a href="/#picks">厨房抽屉隔板裁法</a>
+            <a href="/#picks">公交短游强度判断</a>
+            <a href="/#picks">晨练前后热身整理</a>
+          </div>
+        </section>
+
+        <!-- 11. 补充板块：榜单 + 时间线 -->
+        <section class="section" id="extras">
+          <div class="section-head">
+            <h2>热门榜单与条目时间线<span>补充信息</span></h2>
+          </div>
+          <div class="two-col">
+            <div class="rank-panel">
+              <h3>近 30 天条目热度榜</h3>
+              <ol class="rank-list">
+                <li><b>萝卜羊肉汤去膻三步法</b> — 热度 9.5，11 月 25 日更新</li>
+                <li><b>广场舞《山河美》分解教学</b> — 热度 9.2，更新至第 3 节</li>
+                <li><b>冬季晨练前的 6 项自测清单</b> — 热度 9.0，11 月 22 日更新</li>
+                <li><b>早市挑菜与砍价的 7 个实招</b> — 热度 8.9，11 月 20 日更新</li>
+                <li><b>旧羽绒服改成沙发靠垫</b> — 热度 8.7，11 月 24 日更新</li>
+                <li><b>公交可达的 5 条一日短游线</b> — 热度 8.4，11 月 18 日更新</li>
+              </ol>
+            </div>
+            <div class="timeline-panel">
+              <h3>条目时间线</h3>
+              <ul class="tl">
+                <li><time datetime="2026-11-25">2026-11-25</time><b>《山河美》第 3 节</b>上线，同步放出完整跟练版。</li>
+                <li><time datetime="2026-11-24">2026-11-24</time><b>旧羽绒服改靠垫</b>补充封口针法图解。</li>
+                <li><time datetime="2026-11-22">2026-11-22</time><b>短游线第 4 条</b>调整上车点，同步改注。</li>
+                <li><time datetime="2026-11-20">2026-11-20</time><b>早市挑菜实招</b>更新冬季菜价区间。</li>
+                <li><time datetime="2026-11-14">2026-11-14</time><b>邻里换物会</b>更新登记方式与不交换清单。</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- 右侧辅助栏 -->
+      <aside class="side-right" aria-label="热榜与更新流">
+        <div class="panel panel-pad">
+          <div>
+            <p class="side-title">今日热榜</p>
+            <ol class="hot-list">
+              <li><a href="/#picks">萝卜羊肉汤去膻三步法</a></li>
+              <li><a href="/#picks">《山河美》分解教学第 3 节</a></li>
+              <li><a href="/#picks">冬季晨练 6 项自测清单</a></li>
+              <li><a href="/#picks">早市挑菜砍价 7 个实招</a></li>
+              <li><a href="/#picks">旧羽绒服改沙发靠垫</a></li>
+              <li><a href="/#picks">公交一日短游 5 条线</a></li>
+            </ol>
+          </div>
+          <div>
+            <p class="side-title" style="margin-top:18px;">更新流</p>
+            <ul class="update-feed">
+              <li><time datetime="2026-11-25">今天 09:30</time>《山河美》第 3 节上线</li>
+              <li><time datetime="2026-11-25">今天 08:10</time>羊肉汤补充火候对照表</li>
+              <li><time datetime="2026-11-24">昨天 21:10</time>旧衣改造新增封口针法</li>
+              <li><time datetime="2026-11-23">11 月 23 日</time>晨练清单增关节判断项</li>
+              <li><time datetime="2026-11-22">11 月 22 日</time>短游线第 4 条改上车点</li>
+              <li><time datetime="2026-11-20">11 月 20 日</time>菜场实招更新菜价区间</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- 页尾 -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">
+            <svg class="brand-mark" viewBox="0 0 48 48" role="img" aria-hidden="true" style="width:34px;height:34px;">
+              <circle cx="24" cy="24" r="22" fill="#b5441f"/>
+              <path d="M12 30c2.4-6.4 6.4-10.6 12-12.6 5.6 2 9.6 6.2 12 12.6" fill="none" stroke="#fff2e2" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="24" cy="17" r="4.2" fill="#fff2e2"/>
+              <path d="M14 35h20" stroke="#fff2e2" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+            </svg>
+            <span class="brand-name">旺盛大妈受不了<small>社区活力图鉴</small></span>
+          </div>
+          <p class="footer-desc">记录社区里精力旺盛的阿姨们被验证过的生活经验：舞蹈、汤谱、改造、收纳、短游与自测清单。</p>
+        </div>
+        <div class="footer-col">
+          <h4>内容方向</h4>
+          <ul>
+            <li><a href="/#picks">广场舞曲教学</a></li>
+            <li><a href="/#picks">养生汤谱</a></li>
+            <li><a href="/#picks">旧物改造</a></li>
+            <li><a href="/#picks">家庭收纳</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>常用入口</h4>
+          <ul>
+            <li><a href="/#updates">最新动态</a></li>
+            <li><a href="/#categories">分类入口</a></li>
+            <li><a href="/#guide">体验指南</a></li>
+            <li><a href="/#faq">常见问答</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>数据与说明</h4>
+          <ul>
+            <li>内容编号为社区示例条目</li>
+            <li>热度与更新时间为页面展示数据</li>
+            <li>配图使用占位图源，仅示意</li>
+            <li>页面无外部授权与下载服务</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 旺盛大妈受不了 · 社区活力图鉴</p>
+        <p>本页为示例站点，内容与条目均为整理展示用途。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var input = document.getElementById('pickSearch');
+      var btn = document.getElementById('pickSearchBtn');
+      var grid = document.getElementById('pickGrid');
+      var empty = document.getElementById('pickEmpty');
+      if (!input || !grid) return;
+
+      var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+
+      function filter() {
+        var q = input.value.trim().toLowerCase();
+        var shown = 0;
+        cards.forEach(function (card) {
+          var hay = (card.getAttribute('data-keywords') || '') + ' ' + card.textContent.toLowerCase();
+          var hit = !q || hay.indexOf(q) !== -1;
+          card.style.display = hit ? '' : 'none';
+          if (hit) shown++;
+        });
+        empty.classList.toggle('show', shown === 0);
+      }
+
+      btn.addEventListener('click', filter);
+      input.addEventListener('input', filter);
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') { e.preventDefault(); filter(); }
+      });
+    })();
+  </script>
+</body>
+  </html>
